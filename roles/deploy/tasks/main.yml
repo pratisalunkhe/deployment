@@ -1,0 +1,7 @@
+- name: data container
+  docker:
+    name: data
+    image: p1917/data
+    state: present
+    ports:
+    - "80:80"    
