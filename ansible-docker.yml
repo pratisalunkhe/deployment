@@ -1,5 +1,6 @@
 ---
 - hosts: deploy
+  become_user: sudo
   become: true
   roles:
   - { role: deploy,                       tags: ['deploy'] }
