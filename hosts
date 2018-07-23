@@ -1,5 +1,5 @@
 [deploy]
 # web 1 2
-172.18.200.162 ansible_connection=ssh ansible_user=root ansible_ssh_pass="test"
+172.18.200.98 ansible_connection=ssh ansible_user=pratiksha ansible_ssh_pass="test"
 #172.18.200.165 ansible_connection=ssh ansible_user=root ansible_ssh_pass="test"
 
