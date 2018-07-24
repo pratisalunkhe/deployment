@@ -4,5 +4,5 @@
     image: p1917/build
     state: present
     ports:
-    - "80:80"    
+    - "8082:80"    
 
