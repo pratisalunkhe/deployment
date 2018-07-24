@@ -1,6 +1,6 @@
 - name: data container
   docker:
-    name: data
+    name: build
     image: p1917/build
     state: present
     ports:
