@@ -1,3 +1,6 @@
+
+- command: docker stop dockerdeploy && docker rm dockerdeploy
+
 - command: docker run -d -it -p 8083:80 --name dockerdeploy p1917/build /bin/bash
 
 - command: docker exec -it dockerdeploy service nginx start
