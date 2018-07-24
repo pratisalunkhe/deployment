@@ -5,4 +5,4 @@
 
 - command: docker run -d -it -p 8083:80 --name dockerdeploy p1917/build /bin/bash
 
-- command: docker exec -t dockerdeploy service nginx start
+- command: docker exec  dockerdeploy service nginx start
