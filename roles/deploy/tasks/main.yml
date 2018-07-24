@@ -1,8 +1,1 @@
-- name: data container
-  docker:
-    name: build
-    image: p1917/build
-    state: present
-    ports:
-    - "8082:80"    
-
+- command: docker run -d -it -p 8083:80 --name dockerdeploy p1917/build /bin/bash
